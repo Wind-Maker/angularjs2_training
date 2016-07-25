@@ -40,4 +40,6 @@ typings
 
 #js and map.js files
 *.js
+!systemjs.config.js
+
 *.map
