@@ -14,12 +14,14 @@ export class CarPartsComponent {
         constructor(private racingDataService: RacingDataService) {}
 
         ngOnInit() {
-                this.carParts = this.racingDataService.getCarParts();
+                this.racingDataService.getCarParts().subscribe(carParts => this.carParts = carParts);
         }
 
         totalCarParts()
         {
+        if (Array.isArray(this.carParts)){
                 return this.carParts.reduce((prev,current) => prev + current.inStock, 0 );
+        }
         }
 
         upQuantity(carPart)

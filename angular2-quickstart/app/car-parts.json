@@ -1,0 +1,34 @@
+{
+        "data": [
+                {
+                        "id" : 1,
+                        "name" : "Super Tires",
+                        "description": "These tires are the very best",
+                        "inStock" : 5,
+                        "price" : 4.99,
+                        "image": "/images/tires.jpg",
+                        "featured": false,
+                        "quantity": 0
+                },
+                {
+                        "id" : 1,
+                        "name" : "Super Tires",
+                        "description": "These tires are the very best",
+                        "inStock" : 5,
+                        "price" : 4.99,
+                        "image": "/images/tires.jpg",
+                        "featured": false,
+                        "quantity": 0
+                },
+                {
+                        "id": 3,
+                        "name" : "Padded Seats",
+                        "description" : "Super padded seats",
+                        "inStock" : 0,
+                        "price" : 10.99,
+                        "image": "/images/seat.jpg",
+                        "featured": true,
+                        "quantity": 0
+                }
+        ]
+}
